@@ -9,15 +9,6 @@ def fibonacci(n):
     return hasil
 
 
-def fibonacci_ke_n(n):
-    a, b = 1, 1
-
-    for i in range(n - 1):
-        a, b = b, a + b
-
-    return a
-
-
 while True:
     print("\nmenu pilihan")
     print("1. Barisan Fibonacci")
