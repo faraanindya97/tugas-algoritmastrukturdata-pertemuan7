@@ -21,7 +21,7 @@ while True:
         n = int(input("Masukkan Jumlah Suku : "))
         hasil = fibonacci(n)
         print(f"barisan fibonacci sebanyak {n} suku :")
-        print(", ".join(map(str, hasil)))
+        print(hasil)
 
     elif pilih == "2":
         m = int(input("Masukkan nilai M : "))
